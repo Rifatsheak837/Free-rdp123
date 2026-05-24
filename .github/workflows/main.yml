@@ -70,7 +70,7 @@ jobs:
           Write-Host "👤 CREATING PREMIUM ACCOUNT" -ForegroundColor Yellow
 
           $username = "free-rdp123"
-          $password = "free-rdp123"
+          $password = "@#Freerdp098@#"
           $securePass = ConvertTo-SecureString $password -AsPlainText -Force
 
           # Remove old user if exists
@@ -166,7 +166,7 @@ jobs:
       - name: 🎉 CONNECTION INFORMATION
         run: |
           $username = "free-rdp123"
-          $password = "free-rdp123"
+          $password = "@#Freerdp098@#"
 
           $durationInput = "${{ github.event.inputs.duration }}"
           switch ($durationInput) {
